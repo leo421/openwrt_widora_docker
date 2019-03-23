@@ -1,4 +1,4 @@
-## A docker for openwrt widora
+## 使用Docker编译openwrt widora系统
 
 ### 编译方法
 # 1. 安装配置Docker
