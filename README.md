@@ -8,9 +8,9 @@
 $ git clone https://github.com/leo421/openwrt_widora_docker.git
 
 # 3. 更新feeds
-$ cd openwrt_widora_docker
-$ ./widora.sh ./scripts/feeds update -a
-$ ./widora.sh ./scripts/feeds install -a
+$ cd openwrt_widora_docker<br>
+$ ./widora.sh ./scripts/feeds update -a<br>
+$ ./widora.sh ./scripts/feeds install -a<br>
 
 # 4. 配置
 $ ./widora.sh make menuconfig
@@ -19,7 +19,7 @@ $ ./widora.sh make menuconfig
 $ ./widora.sh make V=s -j4
 
 # 6. image文件
-编译后生成的image文件在如下目录中： 
+编译后生成的image文件在如下目录中： <br>
 openwrt_widora/bin/ramips/: openwrt-ramips-mt7688-Widoraxxxxx-squashfs-sysupgrade.bin
 
 ### 提示
