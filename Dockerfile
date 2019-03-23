@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL maintainer="Wang Xu <2201295@qq.com>"
+LABEL maintainer="leo421 <940160835@qq.com>"
 
 #RUN sed -i 's/security.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 #RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
