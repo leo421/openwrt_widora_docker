@@ -20,7 +20,8 @@ $ ./widora.sh make V=s -j4
 
 # 6. image文件
 编译后生成的image文件在如下目录中： <br>
-openwrt_widora/bin/ramips/: openwrt-ramips-mt7688-Widoraxxxxx-squashfs-sysupgrade.bin
+openwrt_widora/bin/ramips/: <br>
+openwrt-ramips-mt7688-Widoraxxxxx-squashfs-sysupgrade.bin
 
 ### 提示
 ##### 1. 如果安装过程中，有些包无法下载，可以去 http://119.27.163.136:88 找一下，下载后放到opwnwrt_widora/dl目录中。
